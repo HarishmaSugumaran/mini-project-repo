@@ -180,23 +180,80 @@ INSERT INTO admin VALUES(3,'shreya','password3');
 INSERT INTO admin VALUES(4,'harishma','password4');
 
 
+
+
 --USER_DETAILS TABLE
-INSERT INTO user_details VALUES(1,'user1','first1','last1','email1','pass1','06-01-1982',9876543211,1000);
-INSERT INTO user_details VALUES(2,'user2','first2','last2','email2','pass2','25-04-1993',9876543212,1100);
-INSERT INTO user_details VALUES(3,'user3','first3','last3','email3','pass3','12-02-1995',9876543213,1200);
-INSERT INTO user_details VALUES(4,'user4','first4','last4','email4','pass4','17-11-2001',9876543214,1300);
-INSERT INTO user_details VALUES(5,'user5','first5','last5','email5','pass5','23-01-2012',9876543215,1400);
-INSERT INTO user_details VALUES(6,'user6','first6','last6','email6','pass6','30-05-1999',9876543216,1500);
-INSERT INTO user_details VALUES(7,'user7','first7','last7','email7','pass7','06-08-1994',9876543217,1600);
-INSERT INTO user_details VALUES(8,'user8','first8','last8','email8','pass8','09-09-1990',9876543218,1700);
+INSERT INTO user_details VALUES(1,'pneve','Pranay','Neve','pranay@gmail.com','pranay@123','06-01-1982',9876543211,1000);
+INSERT INTO user_details VALUES(2,'sbodhane','Shreya','Bodhane','shreya@gmail.com','shreya@123','25-04-1993',9876543212,1100);
+INSERT INTO user_details VALUES(3,'sasik','Sasidhar','Karunakaran','sasidhar@gmail.com','sasidhar@123','12-02-1995',9876543213,1200);
+INSERT INTO user_details VALUES(4,'hs','Harishma','S','harishma@gmail.com','harishma@123','17-11-2001',9876543214,1300);
+INSERT INTO user_details VALUES(5,'jnile','Jayesh','Nile','jayesh@gmail.com','jayesh@123','23-01-2012',9876543215,1400);
+INSERT INTO user_details VALUES(6,'asharma','Ayush','Sharma','ayush@gmail.com','ayush@123','30-05-1999',9876543216,1500);
+INSERT INTO user_details VALUES(7,'bcutting','Ben','Cutting','ben@gmail.com','ben@123','06-08-1994',9876543217,1600);
+INSERT INTO user_details VALUES(8,'mdhoni','Mahendra','Dhoni','mahendra@gmail.com','mahendra@123','09-09-1990',9876543218,1700);
+INSERT INTO user_details VALUES(9,'bstokes','Ben','Stokes','bens@gmail.com','ben@123','23-01-1984',9899543211,1800);
+INSERT INTO user_details VALUES(10,'ppatil','Pappu','Patil','pappu@gmail.com','pappu@123','25-08-1993',9888543212,1900);
+INSERT INTO user_details VALUES(11,'pnike','Prerna','Nike','prerna@gmail.com','prerna@123','02-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(12,'rkhan','Rashid','Khan','rashid@gmail.com','rashid@123','11-11-2001',9854543214,2100);
+INSERT INTO user_details VALUES(13,'eperry','Ellyse','Perry','ellyse@gmail.com','ellyse@123','23-11-2011',9865543215,2200);
+INSERT INTO user_details VALUES(14,'staylor','Steve','Taylor','steve@outlook.com','steve@123','16-09-1999',9821543216,2300);
+INSERT INTO user_details VALUES(15,'kane','Kane','Williamson','kane@gmail.com','kane@123','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(16,'jroot','Joe','Root','joe@outlook.com','joe@123','09-11-1990',9877643218,2500);
+INSERT INTO user_details VALUES(17,'smandhana','Smriti','Mandhana','mandhana@outlook.com','mandhana@123','25-06-1998',9888543212,1900);
+INSERT INTO user_details VALUES(18,'rburns','Rory','Burns','rory@yahoo.com','rory@123','22-02-1995',9843543213,2000);
+INSERT INTO user_details VALUES(19,'jhyer','Jhye','Richardson','jhye@yahoo.com','jhye@123','11-11-2011',9854543214,2100);
+INSERT INTO user_details VALUES(20,'willp','Will','Pukovski','will@gmail.com','will@123','23-12-2001',9865543215,2200);
+INSERT INTO user_details VALUES(21,'jholder','Jason','Holder','jason@yahoo.com','jason@123','16-09-1989',9821543216,2300);
+INSERT INTO user_details VALUES(22,'jroy','Jason','Roy','roy@yahoo.com','roy@123','06-12-1994',9867543217,2400);
+INSERT INTO user_details VALUES(23,'aparajay','Apara','Jay','apara@outlook.com','apara@123','09-09-1990',9877643218,2500);
+INSERT INTO user_details VALUES(24,'fafp','Faf','Plessis','faf@gmail.com','faf@123','08-10-1995',9584731286,1000);
+INSERT INTO user_details VALUES(25,'kanek','Kane','Kammal','kane@yahoo.com','kane@123','08-09-1990',9877643218,2500);
+INSERT INTO user_details VALUES(26,'rohanp','Rohan','Phalak','rohan@yahoo.com','rohan@123','09-10-1990',9982718338,2500);
+INSERT INTO user_details VALUES(27,'nikep','Nike','Patil','nike@yahoo.com','nike@123','09-10-1990',9875823871,2000);
+INSERT INTO user_details VALUES(28,'garys','Gary','Sobers','gary@outlook.com','pass23','30-12-1990',8755991823,2500);
+INSERT INTO user_details VALUES(29,'stend','Sachin','Tendulkar','sachin@outlook.com','pass23','09-09-1991',8874512736,2000);
+INSERT INTO user_details VALUES(30,'vkohli','Virat','Kohli','virat@outlook.com','virat@123','09-09-1991',8798747333,2500);
+
+
+
+
 
 
 
 --BANK ACCOUNT TABLE
-INSERT INTO bank_account VALUES(1,'citibank',20000,1);
+INSERT INTO bank_account VALUES(1,'citibank',20000,4);
 INSERT INTO bank_account VALUES(2,'canara bank',35000,1);
 INSERT INTO bank_account VALUES(3,'citibank',50000,2);
 INSERT INTO bank_account VALUES(4,'indian overseas bank',75000,3);
+INSERT INTO bank_account VALUES(5,'state bank of india',25000,4);
+INSERT INTO bank_account VALUES(6,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(7,'ICICI',40000,3);
+INSERT INTO bank_account VALUES(8,'indian overseas bank',25000,6);
+INSERT INTO bank_account VALUES(9,'citibank',30000,8);
+INSERT INTO bank_account VALUES(10,'ICICI',20000,1);
+INSERT INTO bank_account VALUES(11,'state bank of india',60000,5);
+INSERT INTO bank_account VALUES(12,'indian overseas bank',40000,7);
+INSERT INTO bank_account VALUES(13,'citibank',10000,6);
+INSERT INTO bank_account VALUES(14,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(15,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(16,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(17,'ICICI',60000,5);
+INSERT INTO bank_account VALUES(18,'indian overseas bank',40000,7);
+INSERT INTO bank_account VALUES(19,'citibank',10000,6);
+INSERT INTO bank_account VALUES(20,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(21,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(22,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(23,'state bank of india',60000,5);
+INSERT INTO bank_account VALUES(24,'HDFC',40000,7);
+INSERT INTO bank_account VALUES(25,'citibank',10000,6);
+INSERT INTO bank_account VALUES(26,'state bank of india',45000,5);
+INSERT INTO bank_account VALUES(27,'HDFC',30000,7);
+INSERT INTO bank_account VALUES(28,'indian overseas bank',35000,6);
+INSERT INTO bank_account VALUES(29,'ICICI',20000,7);
+INSERT INTO bank_account VALUES(30,'indian overseas bank',15000,6);
+
+
+
 
 
 --TRANSACTION TABLE             only one record is enough
@@ -209,6 +266,34 @@ INSERT INTO flight VALUES(2,'spice jet');
 INSERT INTO flight VALUES(3,'air india');
 INSERT INTO flight VALUES(4,'jet airways');
 INSERT INTO flight VALUES(5,'kingfisher');
+INSERT INTO flight VALUES(6,'GoAir');
+INSERT INTO flight VALUES(7,'Vistara');
+INSERT INTO flight VALUES(8,'AirAsia India');
+INSERT INTO flight VALUES(9,'Alliance Air');
+INSERT INTO flight VALUES(10,'TruJet');
+INSERT INTO flight VALUES(11,'Qatar Airways');
+INSERT INTO flight VALUES(12,'Saudi Airlines Saudia');
+INSERT INTO flight VALUES(13,'Etihad Airways');
+INSERT INTO flight VALUES(14,'Air Arabia');
+INSERT INTO flight VALUES(15,'Zoom Air');
+INSERT INTO flight VALUES(15,'FlyBig');
+INSERT INTO flight VALUES(16,'Air Deccan');
+INSERT INTO flight VALUES(17,'Air Heritage');
+INSERT INTO flight VALUES(18,'Star Air');
+INSERT INTO flight VALUES(19,'Club One Air');
+INSERT INTO flight VALUES(20,'Spirit Air');
+INSERT INTO flight VALUES(21,'Jagson Air');
+INSERT INTO flight VALUES(22,'Pawan Hans');
+INSERT INTO flight VALUES(23,'Safefly Aviation');
+INSERT INTO flight VALUES(24,'Ghodawat Aviation');
+INSERT INTO flight VALUES(25,'TajAir');
+INSERT INTO flight VALUES(26,'Supreme Airlines');
+INSERT INTO flight VALUES(27,'Titan Aviation');
+INSERT INTO flight VALUES(28,'Pinnacle Air');
+INSERT INTO flight VALUES(29,'Jal Hans');
+INSERT INTO flight VALUES(30,'Dove Airlines');
+
+
 
 
 --SCHEDULE TABLE
@@ -222,6 +307,47 @@ INSERT INTO schedule VALUES
 TO_DATE('07-01-2020 18:30','DD-MM-YYYY HH24:MI'),
 TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
 100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(3,'nagpur','mumbai',
+TO_DATE('07-01-2020 13:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(5,'pune','delhi',
+TO_DATE('07-01-2020 16:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 01:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(6,'nagpur','jaipur',
+TO_DATE('07-01-2020 17:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 02:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(7,'chennai','bhopal',
+TO_DATE('06-01-2020 04:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('06-01-2020 10:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4500,3200,1);
+INSERT INTO schedule VALUES
+(8,'pune','kolkata',
+TO_DATE('07-01-2020 18:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(9,'nagpur','Indore',
+TO_DATE('07-01-2020 13:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(4,'pune','chennai',
+TO_DATE('07-01-2020 16:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 01:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+INSERT INTO schedule VALUES
+(11,'nagpur','Bangalore',
+TO_DATE('07-01-2020 17:30','DD-MM-YYYY HH24:MI'),
+TO_DATE('08-01-2020 02:30','DD-MM-YYYY HH24:MI'),
+100,20,'ACTIVE',4850,3550,2);
+
 
 
 
@@ -230,6 +356,74 @@ TO_DATE('08-01-2020 03:30','DD-MM-YYYY HH24:MI'),
 --select to_char(TO_DATE('06-01-2020 04:30','DD-MM-YYYY HH24:MI'),'DD-MM-YYYY HH24:MI') from dual;
 
 
+
+Booking Table:
+INSERT INTO booking VALUES(758474,TO_DATE('06-01-2020 05:30','DD-MM-YYYY HH24:MI'),2,1,2500,2,2);
+INSERT INTO booking VALUES(854602,TO_DATE('08-11-2020 06:30','DD-MM-YYYY HH24:MI'),2,1,2500,11,11);
+INSERT INTO booking VALUES(288474,TO_DATE('08-11-2020 06:30','DD-MM-YYYY HH24:MI'),3,1,4500,12,1);
+
+
+INSERT INTO booking VALUES(126152,TO_DATE('06-05-2020 02:30','DD-MM-YYYY HH24:MI'),3,1,1500,1,4);
+INSERT INTO booking VALUES(927475,TO_DATE('09-12-2020 06:30','DD-MM-YYYY HH24:MI'),1,1,2500,1,5);
+INSERT INTO booking VALUES(475849,TO_DATE('08-06-2020 07:30','DD-MM-YYYY HH24:MI'),4,1,4500,31,1);
+
+INSERT INTO booking VALUES(857494,TO_DATE('08-04-2020 08:30','DD-MM-YYYY HH24:MI'),4,1,4500,9,1);
+
+
+INSERT INTO booking VALUES(858464,TO_DATE('12-06-2020 03:30','DD-MM-YYYY HH24:MI'),3,1,3500,1,1);
+
+INSERT INTO booking VALUES(126151,TO_DATE('08-06-2020 07:30','DD-MM-YYYY HH24:MI'),4,1,2500,6,1);
+
+INSERT INTO booking VALUES(854604,TO_DATE('09-06-2020 07:30','DD-MM-YYYY HH24:MI'),4,1,4500,4,5);
+
+
+
+
+
+
+   
+
+--PASSENGER TABLE
+
+INSERT INTO passenger VALUES(1,'Pranay','Neve',22,'economy',10,'adult',126152);
+INSERT INTO passenger VALUES(2,'Steve','Smith',28,'economy',11,'adult',126152);
+INSERT INTO passenger VALUES(3,'Marnus','Labushane',11,'economy',12,'child',126152);
+
+INSERT INTO passenger VALUES(4,'Mahendra','Dhoni',40,'business',1,'adult',475849);
+INSERT INTO passenger VALUES(5,'Suresh','Raina',34,'business',2,'adult',475849);
+INSERT INTO passenger VALUES(6,'Virat','Kohli',2,'business',1,'infant',475849);
+INSERT INTO passenger VALUES(7,'Rohit','Sharma',12,'business',3,'child',475849);
+
+INSERT INTO passenger VALUES(8,'Ben','Stokes',28,'business',10,'adult',857494);
+INSERT INTO passenger VALUES(9,'Jos','Buttler',50,'business',11,'adult',857494);
+INSERT INTO passenger VALUES(10,'De','Kock',22,'business',12,'adult',857494);
+INSERT INTO passenger VALUES(11,'Ricky','Ponting',2,'business',10,'infant',857494);
+
+INSERT INTO passenger VALUES(12,'Ben','Cutting',80,'economy',20,'adult',858464);
+INSERT INTO passenger VALUES(13,'Brad','Hogg',8,'economy',21,'child',858464);
+INSERT INTO passenger VALUES(14,'Pranay','Neve',22,'economy',22,'adult',858464);
+
+INSERT INTO passenger VALUES(15,'Ayush','Sharma',50,'economy',6,'adult',126151);
+INSERT INTO passenger VALUES(16,'Sinchan','Nohara',3,'economy',7,'child',126151);
+INSERT INTO passenger VALUES(17,'Jade','Dernbach',22,'economy',8,'adult',126151);
+INSERT INTO passenger VALUES(18,'Himawari','Nohara',1,'economy',8,'infant',126151);
+
+INSERT INTO passenger VALUES(19,'Jayesh','Nile',22,'economy',4,'adult',758474);
+INSERT INTO passenger VALUES(20,'Majrul','Ansari',30,'economy',5,'adult',758474);
+
+INSERT INTO passenger VALUES(21,'Pranay','Neve',22,'business',18,'adult',927475);
+
+INSERT INTO passenger VALUES(22,'Harishma','S',28,'business',10,'adult',854604);
+INSERT INTO passenger VALUES(23,'Rashid','Khan',50,'business',11,'adult',854604);
+INSERT INTO passenger VALUES(24,'Faf','Plessis',22,'business',12,'adult',854604);
+INSERT INTO passenger VALUES(25,'Ricky','Ponting',90,'business',13,'adult',854604);
+
+INSERT INTO passenger VALUES(26,'Sasidhar','Karunakaran',28,'business',26,'adult',288474);
+INSERT INTO passenger VALUES(27,'Rashid','Khan',50,'business',27,'adult',288474);
+INSERT INTO passenger VALUES(28,'Faf','Plessis',2,'business',27,'infant',288474);
+
+INSERT INTO passenger VALUES(29,'Shreya','Bodhane',28,'business',10,'adult',854602);
+INSERT INTO passenger VALUES(30,'Prerna','Agrawal',13,'business',11,'adult',854602);
 
 --DROPPING ALL TABLES
 
