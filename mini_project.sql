@@ -183,36 +183,36 @@ INSERT INTO admin VALUES(4,'harishma','password4');
 
 
 --USER_DETAILS TABLE
-INSERT INTO user_details VALUES(1,'pneve','Pranay','Neve','pranay@gmail.com','pranay@123','06-01-1982',9876543211,1000);
-INSERT INTO user_details VALUES(2,'sbodhane','Shreya','Bodhane','shreya@gmail.com','shreya@123','25-04-1993',9876543212,1100);
-INSERT INTO user_details VALUES(3,'sasik','Sasidhar','Karunakaran','sasidhar@gmail.com','sasidhar@123','12-02-1995',9876543213,1200);
-INSERT INTO user_details VALUES(4,'hs','Harishma','S','harishma@gmail.com','harishma@123','17-11-2001',9876543214,1300);
-INSERT INTO user_details VALUES(5,'jnile','Jayesh','Nile','jayesh@gmail.com','jayesh@123','23-01-2012',9876543215,1400);
-INSERT INTO user_details VALUES(6,'asharma','Ayush','Sharma','ayush@gmail.com','ayush@123','30-05-1999',9876543216,1500);
-INSERT INTO user_details VALUES(7,'bcutting','Ben','Cutting','ben@gmail.com','ben@123','06-08-1994',9876543217,1600);
-INSERT INTO user_details VALUES(8,'mdhoni','Mahendra','Dhoni','mahendra@gmail.com','mahendra@123','09-09-1990',9876543218,1700);
-INSERT INTO user_details VALUES(9,'bstokes','Ben','Stokes','bens@gmail.com','ben@123','23-01-1984',9899543211,1800);
-INSERT INTO user_details VALUES(10,'ppatil','Pappu','Patil','pappu@gmail.com','pappu@123','25-08-1993',9888543212,1900);
-INSERT INTO user_details VALUES(11,'pnike','Prerna','Nike','prerna@gmail.com','prerna@123','02-02-1995',9843543213,2000);
-INSERT INTO user_details VALUES(12,'rkhan','Rashid','Khan','rashid@gmail.com','rashid@123','11-11-2001',9854543214,2100);
-INSERT INTO user_details VALUES(13,'eperry','Ellyse','Perry','ellyse@gmail.com','ellyse@123','23-11-2011',9865543215,2200);
-INSERT INTO user_details VALUES(14,'staylor','Steve','Taylor','steve@outlook.com','steve@123','16-09-1999',9821543216,2300);
-INSERT INTO user_details VALUES(15,'kane','Kane','Williamson','kane@gmail.com','kane@123','06-12-1994',9867543217,2400);
-INSERT INTO user_details VALUES(16,'jroot','Joe','Root','joe@outlook.com','joe@123','09-11-1990',9877643218,2500);
-INSERT INTO user_details VALUES(17,'smandhana','Smriti','Mandhana','mandhana@outlook.com','mandhana@123','25-06-1998',9888543212,1900);
-INSERT INTO user_details VALUES(18,'rburns','Rory','Burns','rory@yahoo.com','rory@123','22-02-1995',9843543213,2000);
-INSERT INTO user_details VALUES(19,'jhyer','Jhye','Richardson','jhye@yahoo.com','jhye@123','11-11-2011',9854543214,2100);
-INSERT INTO user_details VALUES(20,'willp','Will','Pukovski','will@gmail.com','will@123','23-12-2001',9865543215,2200);
-INSERT INTO user_details VALUES(21,'jholder','Jason','Holder','jason@yahoo.com','jason@123','16-09-1989',9821543216,2300);
-INSERT INTO user_details VALUES(22,'jroy','Jason','Roy','roy@yahoo.com','roy@123','06-12-1994',9867543217,2400);
-INSERT INTO user_details VALUES(23,'aparajay','Apara','Jay','apara@outlook.com','apara@123','09-09-1990',9877643218,2500);
-INSERT INTO user_details VALUES(24,'fafp','Faf','Plessis','faf@gmail.com','faf@123','08-10-1995',9584731286,1000);
-INSERT INTO user_details VALUES(25,'kanek','Kane','Kammal','kane@yahoo.com','kane@123','08-09-1990',9877643218,2500);
-INSERT INTO user_details VALUES(26,'rohanp','Rohan','Phalak','rohan@yahoo.com','rohan@123','09-10-1990',9982718338,2500);
-INSERT INTO user_details VALUES(27,'nikep','Nike','Patil','nike@yahoo.com','nike@123','09-10-1990',9875823871,2000);
-INSERT INTO user_details VALUES(28,'garys','Gary','Sobers','gary@outlook.com','pass23','30-12-1990',8755991823,2500);
-INSERT INTO user_details VALUES(29,'stend','Sachin','Tendulkar','sachin@outlook.com','pass23','09-09-1991',8874512736,2000);
-INSERT INTO user_details VALUES(30,'vkohli','Virat','Kohli','virat@outlook.com','virat@123','09-09-1991',8798747333,2500);
+INSERT INTO user_details VALUES(1,'pneve','Pranay','Neve','pranay@gmail.com','pranay@123',TO_DATE('06-01-1982','DD-MM-YYYY'),9876543211,1000);
+INSERT INTO user_details VALUES(2,'sbodhane','Shreya','Bodhane','shreya@gmail.com','shreya@123',TO_DATE('25-04-1993','DD-MM-YYYY'),9876543212,1100);
+INSERT INTO user_details VALUES(3,'sasik','Sasidhar','Karunakaran','sasidhar@gmail.com','sasidhar@123',TO_DATE('12-02-1995','DD-MM-YYYY'),9876543213,1200);
+INSERT INTO user_details VALUES(4,'hs','Harishma','S','harishma@gmail.com','harishma@123',TO_DATE('17-11-2001','DD-MM-YYYY'),9876543214,1300);
+INSERT INTO user_details VALUES(5,'jnile','Jayesh','Nile','jayesh@gmail.com','jayesh@123',TO_DATE('23-01-2012','DD-MM-YYYY'),9876543215,1400);
+INSERT INTO user_details VALUES(6,'asharma','Ayush','Sharma','ayush@gmail.com','ayush@123',TO_DATE('30-05-1999','DD-MM-YYYY'),9876543216,1500);
+INSERT INTO user_details VALUES(7,'bcutting','Ben','Cutting','ben@gmail.com','ben@123',TO_DATE('06-08-1994','DD-MM-YYYY'),9876543217,1600);
+INSERT INTO user_details VALUES(8,'mdhoni','Mahendra','Dhoni','mahendra@gmail.com','mahendra@123',TO_DATE('09-09-1990','DD-MM-YYYY'),9876543218,1700);
+INSERT INTO user_details VALUES(9,'bstokes','Ben','Stokes','bens@gmail.com','ben@123',TO_DATE('23-01-1984','DD-MM-YYYY'),9899543211,1800);
+INSERT INTO user_details VALUES(10,'ppatil','Pappu','Patil','pappu@gmail.com','pappu@123',TO_DATE('25-08-1993','DD-MM-YYYY'),9888543212,1900);
+INSERT INTO user_details VALUES(11,'pnike','Prerna','Nike','prerna@gmail.com','prerna@123',TO_DATE('02-02-1995','DD-MM-YYYY'),9843543213,2000);
+INSERT INTO user_details VALUES(12,'rkhan','Rashid','Khan','rashid@gmail.com','rashid@123',TO_DATE('11-11-2001','DD-MM-YYYY'),9854543214,2100);
+INSERT INTO user_details VALUES(13,'eperry','Ellyse','Perry','ellyse@gmail.com','ellyse@123',TO_DATE('23-11-2011','DD-MM-YYYY'),9865543215,2200);
+INSERT INTO user_details VALUES(14,'staylor','Steve','Taylor','steve@outlook.com','steve@123',TO_DATE('16-09-1999','DD-MM-YYYY'),9821543216,2300);
+INSERT INTO user_details VALUES(15,'kane','Kane','Williamson','kane@gmail.com','kane@123',TO_DATE('06-12-1994','DD-MM-YYYY'),9867543217,2400);
+INSERT INTO user_details VALUES(16,'jroot','Joe','Root','joe@outlook.com','joe@123',TO_DATE('09-11-1990','DD-MM-YYYY'),9877643218,2500);
+INSERT INTO user_details VALUES(17,'smandhana','Smriti','Mandhana','mandhana@outlook.com','mandhana@123',TO_DATE('25-06-1998','DD-MM-YYYY'),9888543212,1900);
+INSERT INTO user_details VALUES(18,'rburns','Rory','Burns','rory@yahoo.com','rory@123',TO_DATE('22-02-1995','DD-MM-YYYY'),9843543213,2000);
+INSERT INTO user_details VALUES(19,'jhyer','Jhye','Richardson','jhye@yahoo.com','jhye@123',TO_DATE('11-11-2011','DD-MM-YYYY'),9854543214,2100);
+INSERT INTO user_details VALUES(20,'willp','Will','Pukovski','will@gmail.com','will@123',TO_DATE('23-12-2001','DD-MM-YYYY'),9865543215,2200);
+INSERT INTO user_details VALUES(21,'jholder','Jason','Holder','jason@yahoo.com','jason@123',TO_DATE('16-09-1989','DD-MM-YYYY'),9821543216,2300);
+INSERT INTO user_details VALUES(22,'jroy','Jason','Roy','roy@yahoo.com','roy@123',TO_DATE('06-12-1994','DD-MM-YYYY'),9867543217,2400);
+INSERT INTO user_details VALUES(23,'aparajay','Apara','Jay','apara@outlook.com','apara@123',TO_DATE('09-09-1990','DD-MM-YYYY'),9877643218,2500);
+INSERT INTO user_details VALUES(24,'fafp','Faf','Plessis','faf@gmail.com','faf@123',TO_DATE('08-10-1995','DD-MM-YYYY'),9584731286,1000);
+INSERT INTO user_details VALUES(25,'kanek','Kane','Kammal','kane@yahoo.com','kane@123',TO_DATE('08-09-1990','DD-MM-YYYY'),9877643218,2500);
+INSERT INTO user_details VALUES(26,'rohanp','Rohan','Phalak','rohan@yahoo.com','rohan@123',TO_DATE('09-10-1990','DD-MM-YYYY'),9982718338,2500);
+INSERT INTO user_details VALUES(27,'nikep','Nike','Patil','nike@yahoo.com','nike@123',TO_DATE('09-10-1990','DD-MM-YYYY'),9875823871,2000);
+INSERT INTO user_details VALUES(28,'garys','Gary','Sobers','gary@outlook.com','pass23',TO_DATE('30-12-1990','DD-MM-YYYY'),8755991823,2500);
+INSERT INTO user_details VALUES(29,'stend','Sachin','Tendulkar','sachin@outlook.com','pass23',TO_DATE('09-09-1991','DD-MM-YYYY'),8874512736,2000);
+INSERT INTO user_details VALUES(30,'vkohli','Virat','Kohli','virat@outlook.com','virat@123',TO_DATE('09-09-1991','DD-MM-YYYY'),8798747333,2500);
 
 
 
@@ -276,7 +276,6 @@ INSERT INTO flight VALUES(12,'Saudi Airlines Saudia');
 INSERT INTO flight VALUES(13,'Etihad Airways');
 INSERT INTO flight VALUES(14,'Air Arabia');
 INSERT INTO flight VALUES(15,'Zoom Air');
-INSERT INTO flight VALUES(15,'FlyBig');
 INSERT INTO flight VALUES(16,'Air Deccan');
 INSERT INTO flight VALUES(17,'Air Heritage');
 INSERT INTO flight VALUES(18,'Star Air');
@@ -451,6 +450,5 @@ DROP TABLE flight;
 DROP TABLE admin;
 DROP TABLE transaction;
 DROP TABLE user_details;
-
 
 
